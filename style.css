@@ -1,3 +1,159 @@
 body {
     margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+    margin-top: 0;
+    background-image: url("images/header-img.jpg");
+    background-size: 100%;
+    height: 25rem;
+}
+
+.header-container {
+    padding: 5% 25%;
+    text-align: center;
+    color: white;
+}
+
+.section-title {
+    margin: 5%;
+}
+
+.button {
+    margin: 5%;
+    color: bisque;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.donate-today {
+    text-align: center;
+    padding: 5% 25%;
+}
+
+.flexible-items {
+    display: flex;
+    margin: 0 3%;
+}
+
+.one-fifth {
+    width: 20%;
+    background-color: antiquewhite;
+    margin: 2%;
+    padding: 10px 2px;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+
+.selected {
+    border: 2px solid royalblue;
+    background-color: lightblue;
+}
+
+.donate-today input {
+    margin-top: 5%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 0 15% 0;
+}
+
+.donate-today input:focus {
+    outline: none;
+}
+
+.donate-plan {
+    margin: 0 5% 12%;
+}
+
+.plan-top {
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 1% 20%;
+
+}
+
+.one-third {
+    width: 30%;
+    margin: 1%;
+    padding: 4% 2%;
+    border-radius: 5px;
+}
+
+.one-third img {
+    height: 30px;
+}
+
+#plan-first {
+    background-color: aliceblue;
+}
+
+#plan-second {
+    background-color: lightgoldenrodyellow;
+}
+
+#plan-third {
+    background-color: honeydew;
+}
+
+.half-width {
+    width: 45%;
+    max-height: 400px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.half-width p {
+    margin-top: 2.5rem;
+}
+
+.half-width img {
+    text-align: right;
+    height: 100%;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+
+.get-update {
+    text-align: center;
+    margin: 5% 20% 5%;
+}
+
+.get-update form {
+    background-color: cornsilk;
+    margin: 2% 3%;
+    padding: 3% 5%;
+    border-radius: 5px;
+}
+
+.get-update form input {
+    padding: 8px 15px;
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    margin-left: 0;
+    color: bisque;
+    background-color: orangered;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 3%;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    color: darkorange;
+    font-size: larger;
 }
